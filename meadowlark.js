@@ -10,7 +10,7 @@ let fortunes = [
  "Whenever possible, keep it simple.",
 ];
 
-let handlebars = require('express3-handlebars').create({ defaultLayout:'main' });
+let handlebars = require('express-handlebars').create({ defaultLayout:'main' });
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
